@@ -1,0 +1,61 @@
+body{
+    padding: 20px;
+    background-color: #F2F3F4;
+}
+
+#first-h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 5px black;
+    width: 60%;
+    background-color: azure;
+}
+
+.container-tittle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+}
+
+.container-subtittle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.container-image{
+    display: flex;
+    padding: 10%;
+}
+
+#img1{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px darkgray;
+    background-image: url(/assets/png-clipart-green-stadium-movement-stadium-removebg-preview.png);
+}
+
+#img2{
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px darkgrey;
+    margin-left: 40px;
+    background-image: url(/assets/png-clipart-green-stadium-movement-stadium-removebg-preview.png);
+}
+
